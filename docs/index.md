@@ -1,8 +1,8 @@
 # <ins>Kazeros guide</ins>
 
-<p align=justify>Welcome to the guide that was made specificaly for my static usage.</p>
+<p align=justify>Welcome to the Kazeros G2 guide.</p>
 
-<p align=justify>Its the first time i've ever created something like this so expect issues/slow loading times/weird formating, etc.</p>
+<p align=justify>Made it to help my static, but feel free to use it now that the race is delayed anyway.</p>
 
 <p align=justify>Everything was created by me, Rubberino, my friend Armadillo, and also with the help of a few other people.</p>
 
@@ -17,13 +17,13 @@
 
 <p align=justify>I will revisit it later to fix any issues that this guide might have related to patterns (you can also let me know if there is anything missing/wrong).</p>
 
-<p align=justify>Videos don't have any sounds, because my music taste is sometimes questionable.</p>
-
 ## <ins>Quick info</ins>
 
 <p align=justify>Guide is split into 4 sections:</p>
 
-* Phase 1 - which includes whole 1000x-700x
-* Phase 2 - which includes whole 700x-300x
-* Phase 3 - which includes whole 300x-0x
-* Special patterns - which includes patterns related to kazeros's meter
+* G2-1 - Patterns and Mechs from 1st gate
+* G2-2 - Patterns and Mechs from 2nd gate
+* G2-3 - Patterns and Mechs from 3rd gate
+
+<p align=justify>G1 link: 
+https://rubberoni.github.io/Kazeros-guide/
