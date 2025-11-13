@@ -1,10 +1,12 @@
 # <ins>Kazeros guide</ins>
 
-<p align=justify>Welcome to the Kazeros G2 guide.</p>
+<p align=justify>Welcome to the Kazeros G2 guide. If you want to see G1 click link below.</p>
+
+[G1](https://rubberoni.github.io/Kazeros-guide/)
 
 <p align=justify>Made it to help my static, but feel free to use it now that the race is delayed anyway.</p>
 
-<p align=justify>Everything was created by me, Rubberino, my friend Armadillo, and also with the help of a few other people.</p>
+<p align=justify>Everything was created by Rubberino, my friend Armadillo, and also with the help of a few other people.</p>
 
 <p align=justify>Big thanks to the people who were streaming the whole time so i could watch multiple vods of prog:</p>
 
@@ -19,11 +21,10 @@
 
 ## <ins>Quick info</ins>
 
-<p align=justify>Guide is split into 4 sections:</p>
+<p align=justify>Guide is split into 3 sections:</p>
 
 * G1 - Patterns and Mechs from 1st gate
 * G2 - Patterns and Mechs from 2nd gate
 * G3 - Patterns and Mechs from 3rd gate
 
-[G1 link](https://rubberoni.github.io/Kazeros-guide/)
 
