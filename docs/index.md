@@ -23,8 +23,8 @@
 
 <p align=justify>Guide is split into 3 sections:</p>
 
-* G1 - Patterns and Mechs from 1st gate
-* G2 - Patterns and Mechs from 2nd gate
-* G3 - Patterns and Mechs from 3rd gate
+* G2-1 - Patterns and Mechs from 1st 'gate'
+* G2-2 - Patterns and Mechs from 2nd 'gate'
+* G2-3 - Patterns and Mechs from 3rd 'gate'
 
 
