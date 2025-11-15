@@ -68,7 +68,7 @@ If somebody fails then he will instead drop on top of that person and require a 
 <p align=justify>3. Front Back</p>
 
 <video width="800" height="500" controls="" muted="">
-    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Font_Back_Kick.mp4">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Front_Back_Kick.mp4">
 </video>
 
 <p align=justify>4. Kick</p>
