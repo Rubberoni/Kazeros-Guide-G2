@@ -1,2 +1,7 @@
-# Patterns
-<p align=justify>Because phase 2 doesnt really have specific patterns to it, but rather a specific order of patterns/mechs, this section will explain what happens right after each other.</p>
+# <ins>Patterns</ins>
+
+<p align=justify>Phase 3 is also gimmicky which is why this whole section will exaplain everything that happens.</p>
+
+## <ins>Transition</ins>
+
+
