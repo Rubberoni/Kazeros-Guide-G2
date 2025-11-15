@@ -151,3 +151,5 @@ Quickly identify safepot during the QTE by checking where the boss is facing and
 <i><p align=center>You want to split into 3 groups of 2 to quickly get rid of them.  
 You cant move out of them otherwise the bar will reset.  
 Not getting rid of them will result in raid wipe.</i></p>
+
+<p align=justify>If you do not manage to finish this gate by now this whole phase will repeat.</p>
