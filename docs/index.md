@@ -21,6 +21,8 @@
 
 <p align=justify>If something doesnt load - refresh. Github issues (unless its my fault, but refreshing 1 time means its a github).</p>
 
+<p align=justify>Never done anything like this before so take it easy on me c:</p>
+
 ## <ins>Quick info</ins>
 
 <p align=justify>Guide is split into 3 sections:</p>
