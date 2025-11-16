@@ -19,6 +19,8 @@
 
 <p align=justify>I will revisit it later to fix any issues that this guide might have related to patterns (you can also let me know if there is anything missing/wrong).</p>
 
+<p align=justify>If something doesnt load - refresh. Github issues (unless its my fault, but refreshing 1 time means its a github).</p>
+
 ## <ins>Quick info</ins>
 
 <p align=justify>Guide is split into 3 sections:</p>
