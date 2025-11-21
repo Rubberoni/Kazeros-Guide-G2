@@ -11,7 +11,7 @@
 <p align=justify>Big thanks to the people who were streaming the whole time so i could watch multiple vods of prog:</p>
 
 * Saintone
-* Cracinee (Also make sure to check his guide out. LOTS of small info that i did not include here that will help you with minmaxing uptime)
+* Cracinee 
 
 <p align=justify>I hope this guide will help you with clearing Kazeros.</p>
 
@@ -22,6 +22,8 @@
 <p align=justify>If something doesnt load - refresh. Github issues (unless its my fault, but refreshing 1 time means its a github).</p>
 
 <p align=justify>Never done anything like this before so take it easy on me c:</p>
+
+<p align=justify>Make sure to check out SeoNee guide for this gate as well. Extremely helpful.</p>
 
 ## <ins>Quick info</ins>
 
