@@ -11,7 +11,7 @@
 <p align=justify>Big thanks to the people who were streaming the whole time so i could watch multiple vods of prog:</p>
 
 * Saintone
-* Cracinee
+* Cracinee (Also make sure to check his guide out. LOTS of small info that i did not include here that will help you with minmaxing uptime)
 
 <p align=justify>I hope this guide will help you with clearing Kazeros.</p>
 
