@@ -6,13 +6,13 @@
 
 ## <ins>Transition</ins>
 
-<p align=justify>Kazeros periodicaly explodes creating lines around him. On the 3rd explosion he also spawns puddles under the players and cones coming out of his model. After that he ascends and lands creating an explosion which instakill the players.</p>
+<p align=justify>Kazeros periodicaly explodes creating lines around him. On the 3rd explosion he also spawns puddles under the players. After that he will spawn 4 cones and additional red line under each player. After that he ascends and lands creating an explosion which instakill the players.</p>
 
 <video width="800" height="500" controls="" muted="">
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Transition_3.mp4">
 </video>
 
-<i><p align=center>During 3rd explosion he also targets 1 person. If anyone comes near him during that he will activate a forced clash on the person who was the closest.</i></p>
+<i><p align=center>Bit after the cones he will inititate a clash animation. If you want to enter it you have to be right in front of him during the red line + cone explosion (DPS + 1 support who will DR him)</i></p>
 
 <video width="800" height="500" controls="" muted="">
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Grab_Mid_Transition_3.mp4">
@@ -28,7 +28,7 @@
 
 <i><p align=center>If you fail <code style="color : Darkorange">guard</code> Kazeros will repeat the pattern ultimately leaving you with no space to resolve the mech if you fail it repeatedly.    
 It is advised to gather middle and the person who was targeted should be close, but not close enough to overlap Kazeros explosion with the other players.  
-The trick to know if you are the one being targeted is by seeing if camera zoomed in. If it did that means its you.</i></p>
+The trick to know if you are the one being targeted is by seeing if camera zoomed in. If it did that means its either you or the person close to you.</i></p>
 
 <p align=justify>After that he will vanish and dash 2 times towards the random players performing a <code style="color : Darkorange">guard</code>.</p>
 
