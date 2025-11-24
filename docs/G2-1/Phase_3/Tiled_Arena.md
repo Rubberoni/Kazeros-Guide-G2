@@ -28,7 +28,8 @@
 
 <i><p align=center>If you fail <code style="color : Darkorange">guard</code> Kazeros will repeat the pattern ultimately leaving you with no space to resolve the mech if you fail it repeatedly.    
 It is advised to gather middle and the person who was targeted should be close, but not close enough to overlap Kazeros explosion with the other players.  
-The trick to know if you are the one being targeted is by seeing if camera zoomed in. If it did that means its either you or the person close to you.</i></p>
+The trick to know if you are the one being targeted is by seeing if camera zoomed in. If it did that means its either you or the person close to you.  
+If you are not the one being targeted you want to use any skill with at least para immunity. Sometimes Kazeros might hit you by targeting person close to you which might push you off the map.</i></p>
 
 <p align=justify>After that he will vanish and dash 2 times towards the random players performing a <code style="color : Darkorange">guard</code>.</p>
 
