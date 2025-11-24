@@ -149,7 +149,7 @@ Quickly identify safepot during the QTE by checking where the boss is facing and
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Last_DPS_Check.mp4">
 </video>
 
-<i><p align=center>You want to split into 3 groups of 2 to quickly get rid of them.  
+<i><p align=center>You want to split into 3 groups of 2 to quickly get rid of them. You should have Hyper awakening saved for that mech (you can also use kadan to destroy one of the cones).  
 You cant move out of them otherwise the bar will reset.  
 Not getting rid of them will result in raid wipe.</i></p>
 
