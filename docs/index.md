@@ -11,7 +11,12 @@
 <p align=justify>Big thanks to the people who were streaming the whole time so i could watch multiple vods of prog:</p>
 
 * Saintone
-* Cracinee 
+* Cracinee
+
+<p align=justify>Make sure to check out SeoNee guide for this gate as well. Extremely helpful.</p>
+
+[G2-1](https://www.youtube.com/watch?v=kTCjCPl1jR0&t=1s)  
+[G2-2/3](https://www.youtube.com/watch?v=70o8vmnTLyg)
 
 <p align=justify>I hope this guide will help you with clearing Kazeros.</p>
 
@@ -23,7 +28,7 @@
 
 <p align=justify>Never done anything like this before so take it easy on me c:</p>
 
-<p align=justify>Make sure to check out SeoNee guide for this gate as well. Extremely helpful.</p>
+
 
 ## <ins>Quick info</ins>
 
