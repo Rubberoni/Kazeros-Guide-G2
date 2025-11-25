@@ -51,6 +51,7 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
+  - jemoji
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
