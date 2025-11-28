@@ -1,12 +1,14 @@
 # <ins>Patterns</ins>
 
-<p align=justify>Phase 3 is also gimmicky which is why this whole section will exaplain everything that happens.</p>
+<p align=justify>Phase 3, just like phase 2, is a sequence of patterns that repeat till you kill Kazeros.</p>
 
-<p align=justify>Multiple patterns in this phase inflicts the debuff that makes you eplode after a few seconds and one that reduces your healing received (this one stacks up to 5 times and then transforms into 100% reduced healing received - this one is not cleansable).</p>
+<p align=justify>A few things worth mentioning: multiple patterns in this phase inflicts the debuff that makes you eplode after a few seconds (red fog from 'Imprison' mech and a few other patterns) and one that reduces your healing received (this one stacks up to 5 times and then transforms into 100% reduced healing received - this one is not cleansable and lasts for ~2 minutes).</p>
 
 ## <ins>Transition</ins>
 
-<p align=justify>Kazeros periodicaly explodes creating lines around him. On the 3rd explosion he also spawns puddles under the players. After that he will spawn 4 cones and additional red line under each player. After that he ascends and lands creating an explosion which instakill the players.</p>
+🗒️<strong>Explanation</strong> 
+
+<p align=justify>After you finish the last clash in phase 2 Kazeros will activate a cutscene and transition into another arena. He lands in a middle and sends 3 waves of blue lines. On the 3rd wave he also spawns puddles under all players. After that he will spawn 4 cones and additional red line under each player. This is also a timing for bonus clash which can be taken by the closest player. Its not a mandatory to take that one, but it is an additional damage opening. After that he ascends and lands creating an explosion which instakill the players.</p>
 
 <video width="800" height="500" controls="" muted="">
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Transition_3.mp4">
