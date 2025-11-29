@@ -148,7 +148,7 @@
 <p align=justify>Before he throws out his sword make sure to stay stacked in front - it targets one player.</p>
 <p align=justify>Last double <code style="color : Darkorange">guard</code> is hard to execute so people can just stay together in front of Kazeros with supports DR so he doesnt push you off the map.</p>
 
-## <ins>Guard Pizza</ins>
+## <ins>Guard pizza</ins>
 
 🗒️<strong>Explanation</strong> 
 <p align=justify>After resolving the special pattern Kazeros will throw his sword towards the middle and start sending waves of red cones, which are delayed explosions, coming out of him 4 times. During the 3rd one he will also do a <code style="color : Darkorange">guard</code> coming out of his sword. </p>
@@ -193,7 +193,7 @@
 ✅<strong>Useful information</strong>
 <p align=justify>Play around the parts that are not destroyed. Its extremely easy to get pushed off the map during this phase. Control the aggro.</p>
 
-## <ins>DPS check 2</ins>
+## <ins>DPS Check 2</ins>
 
 🗒️<strong>Explanation</strong> 
 <p align=justify>Final mech of this phase. Boss will return to the 'Tiled arena'. Then he will send 3 waves of red cones followed by a <code style="color : Darkorange">guard</code> after. At the same time, right after the 2nd wave, he will spawn 3 small cones with a bit different color attached to him. By standing inside of them you can fill them up making them dissapear after dealing enough damage. If you move out of them at any point the dmg you dealt to them will restart making you have to start from 0 (as long as at least 1 player is inside it wont restart). If you do not manage to destroy them in time its a wipe.</p>
