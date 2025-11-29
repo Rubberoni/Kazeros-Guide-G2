@@ -2,7 +2,7 @@
 
 <p align=justify>Phase 3, just like phase 2, is a sequence of patterns that repeat till you kill Kazeros.</p>
 
-<p align=justify>A few things worth mentioning: multiple patterns in this phase inflicts the debuff that makes you eplode after a few seconds (red fog from 'Imprison' mech and a few other patterns) and one that reduces your healing received (this one stacks up to 5 times and then transforms into 100% reduced healing received - this one is not cleansable and lasts for ~2 minutes).</p>
+<p align=justify>A few things worth mentioning: multiple patterns in this phase inflicts the debuff that makes you explode after a few seconds (red fog from 'Imprison' mech and a few other patterns) and one that reduces your healing received (this one stacks up to 5 times and then transforms into 100% reduced healing received - this one is not cleansable and lasts for ~2 minutes).</p>
 
 ## <ins>Transition</ins>
 
