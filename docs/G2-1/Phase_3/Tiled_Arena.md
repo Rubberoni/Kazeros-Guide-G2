@@ -8,7 +8,8 @@
 
 🗒️<strong>Explanation</strong> 
 
-<p align=justify>After you finish the last clash in phase 2 Kazeros will activate a cutscene and transition into another arena. He lands in a middle and sends 3 waves of blue lines. On the 3rd wave he also spawns puddles under all players. After that he will spawn 4 cones and an additional red line under each player. This is also a timing for bonus clash which can be taken by the closest player standing right in front of him (Kazeros targets one random players and constantly rotates towards him). Its not a mandatory to take that one, but it is an additional damage opening. After that he ascends and lands creating an explosion which instakill the players.</p>
+<p align=justify>After you finish the last clash in phase 2 Kazeros will activate a cutscene and transition into another arena. He lands in a middle and sends 3 waves of blue lines. On the 3rd wave he also spawns puddles under all players.</p>
+<p align=justify>After that he will spawn 4 cones and an additional red line under each player. This is also a timing for bonus clash which can be taken by the closest player standing right in front of him (Kazeros targets one random players and constantly rotates towards him). Its not a mandatory to take that one, but it is an additional damage opening. After that he ascends and lands creating an explosion which instakill the players.</p>
 
 <video width="800" height="500" controls="" muted="">
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Transition_3.mp4">
