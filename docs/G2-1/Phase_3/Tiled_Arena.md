@@ -206,6 +206,7 @@
 ✅<strong>Useful information</strong>
 <p align=justify>You should dodge the first 2 cones and then move inside them and use Hypers.</p>
 <p align=justify>You want to split into 3 groups of 2 to guarantee even dmg distribution.</p>
+<p align=justify>Supports should awaken here.</p>
 
 ## <ins>Repeat</ins>
 
