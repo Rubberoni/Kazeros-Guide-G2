@@ -126,7 +126,7 @@
 <p align=justify>1.Co-op counter</p>
 
 🗒️<strong>Explanation</strong> 
-<p align=justify>Kazeros will do a double 'Pole vault' pattern in one place - he will do it 2 times and each time there will be 2 overlaps (think of it as 2x2) followed by a <code style="color : Fuchsia">co-op counter</code>. After that he will explode 2 times with inside safe every time and finish with a dash spin towards the players.<p>
+<p align=justify>Kazeros will do a double 'Pole vault' pattern in one place - he will do it 2 times and each time there will be 2 overlaps (think of it as 2x2) followed by a <code style="color : Fuchsia">co-op counter</code>. After that he will explode 2 times with inside safe every time and finish with a dash spin towards the players.</p>
 
 <video width="800" height="500" controls="" muted="">
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Tile_Arena_Special_2.mp4">
