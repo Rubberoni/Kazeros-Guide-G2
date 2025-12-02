@@ -20,7 +20,7 @@
 
 <p align=justify>I hope this guide will help you with clearing Kazeros.</p>
 
-<p align=justify>Just a warning tho - it was made purely based on The First mode so i dont know what's different compared to the normal/hard version.</p>
+<p align=justify>Just a warning tho - it was made purely based on The First mode so i dont know what's different compared to the normal/hard version (included some changes already).</p>
 
 <p align=justify>I will revisit it later to fix any issues that this guide might have related to patterns (you can also let me know if there is anything missing/wrong).</p>
 
