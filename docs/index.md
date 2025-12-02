@@ -1,6 +1,6 @@
 # <ins>Kazeros guide</ins>
 
-<p align=justify>Welcome to the Kazeros G2 guide. Might not be as detailed, because i burnt out a bit (Loooots of patterns), but can explain stuff if needed. If you want to see G1 click link below.</p>
+<p align=justify>Welcome to the Kazeros G2 guide. If you want to see G1 click link below. Would say that G2 is made a bit better than G1 in a current state. For extremely detailed explanation of G1 check out Cracinee video.</p>
 
 [G1](https://rubberoni.github.io/Kazeros-guide/)
 
