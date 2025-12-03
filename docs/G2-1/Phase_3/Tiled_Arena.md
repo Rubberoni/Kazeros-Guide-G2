@@ -53,7 +53,7 @@
 <p align=justify>The timing for guard is just slightly after you see him on your screen.</p>
 <p align=justify>You should wait a moment before moving out after the <code style="color : Darkorange">guard</code> (if you are not the one doing it). Reason for that is you normally destroy only 2 tiles next to each other starting from your position, but if you are standing right on top of 3 (crossing line with 2 + 1 next to them) you will destroy all of them (same goes for higher amount of tiles). This way you can block off your teammates or just destroy tiles closer to the middle.</p>
 <p align=justify>A few tips for identifying if you are the one who has to <code style="color : Darkorange">guard</code>: If your camera zooms in its either you or somebody next to you; If the lines are overlapping try to find the one that ends right behind you - it will be the true direction; <code style="color : Darkorange">Guard</code> towards the opposite side of the arrows (like in Mordum g1 at the last phase - arrows indicates direction from which boss will come)</p>
-<p align=justify>Use any skill with at least para immunity (havent tested, might be only push, but try it out) if you are not the one being targeted. Reason for that is Kazeros can push you off the map while charging towards another person (clip below).</p>
+<p align=justify>Use any skill with at least para immunity if you are not the one being targeted. Reason for that is Kazeros can push you off the map while charging towards another person (clip below).</p>
 
 <video width="800" height="500" controls="" muted="">
     <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Tile_Arena_RIP.mp4">
