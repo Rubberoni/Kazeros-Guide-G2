@@ -1,0 +1,1462 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../..">
+      
+      
+        <link rel="next" href="../02._Special_Patterns/">
+      
+      
+        
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Normal Patterns - Kazeros guide G2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#normal-patterns" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Kazeros guide G2" class="md-header__button md-logo" aria-label="Kazeros guide G2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kazeros guide G2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Normal Patterns
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Kazeros guide G2" class="md-nav__button md-logo" aria-label="Kazeros guide G2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Kazeros guide G2
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kazeros guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wall
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slow-kick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slow kick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scratches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scratches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rightleft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Right/Left
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#punches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Punches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spin-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spin Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#double-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Double Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#triple-jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Triple Jump
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Waves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grab
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02._Special_Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Special Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Phase_2/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Phase_3/Tiled_Arena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-2/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-2/02._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-3/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-3/02._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wall
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slow-kick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slow kick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scratches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scratches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rightleft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Right/Left
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#punches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Punches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spin-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spin Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#double-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Double Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#triple-jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Triple Jump
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Waves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grab
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="normal-patterns"><ins>Normal Patterns</ins><a class="headerlink" href="#normal-patterns" title="Permanent link">&para;</a></h1>
+<p align=justify>This sections explains normal patterns that Kazeros uses during phase 1 till the broken arena.</p>
+<p align=justify>You will also see that some patterns will have something that i call 'after-hit'. What i mean by that is Kazeros on some patterns will follow-up his hits with a burst of air that deals damage and also pushes you (which can be ignored with at least para immunity).</p>
+
+<h2 id="wall"><ins>Wall</ins><a class="headerlink" href="#wall" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>Kazeros's hands start to glow red and he crosses them. After that he can perform 1 of the 3 variations:</p>
+
+<p align=justify>1. Front wall</p>
+
+<p align=justify>He does a backstep and spawns a wall in front of him.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Start_Wall.mp4">
+</video>
+
+<p align=justify>2. Back wall</p>
+
+<p align=justify>He doesnt move and instead crosses his hands 2 times. After that he spawns a wall behind him.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Back_Wall.mp4">
+</video>
+
+<p align=justify>3. Side walls</p>
+
+<p align=justify>He doesnt move and spawns walls on both of his sides after a longer period of time.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Middle_Wall.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>He always starts this gate with a 'Front wall' pattern.</p>
+<p align=justify>If you get hit by it you will get imprisoned and others will have to free you.</p>
+
+<h2 id="jump-guard"><ins>Jump Guard</ins><a class="headerlink" href="#jump-guard" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>Kazeros kneels and a red aura surrounds him. After a moment he jumps, creating an explosion around him, and dashes towards one player after he lands. Then he performs a <code style="color : Darkorange">guard</code> towards him followed by a cleave. This pattern has 2 variations based on if anyone got hit by the cleave.</p>
+
+<p align=justify>1. Jump guard into back wall</p>
+
+<p align=justify>If anyone got hit by the cleave he will then spawn a wall behind him.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Jump_Guard_Back_Wall.mp4">
+</video>
+
+<p align=justify>2. Jump guard into front wall</p>
+
+<p align=justify>If no one got hit by the cleave he will then do a backdash and spawn a wall in front of him.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Jump_Guard_Front_Wall.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>He doesnt deal damage when he lands.</p>
+<p align=justify><code style="color : Darkorange">Guard</code> is a ~180 angle on his right side which means you can ignore it completely on his left side. Cleave is a ~270 angle covering both of his sides + front which means back is safe.</p>
+<p align=justify>You can also completely ignore this <code style="color : Darkorange">guard</code> using any skill with at least para immunity, because it doesnt affect his cleave and neither the wall. Wall spawn is always based on somebody getting hit by the cleave.</p>
+<p align=justify>If you have lots of back attackers this pattern is a nice DPS window for them if nobody gets hit by the wall. If somebody does get hit by it make sure to call out/ping so the other can expect 'Back wall'.</p>
+
+<h2 id="slow-kick"><ins>Slow kick</ins><a class="headerlink" href="#slow-kick" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros takes a step back and kicks one person which he later follows-up with a punch behind his back into an 'after-hit' and finishes off with a front punch into an 'after-hit'.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Slow_Kick.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>All of the hits require only para immunity.</p>
+<p align=justify>His 'after-hit' behind his back is a bit different compered to the others. This one instead of pushing you away from him will pull you towards his front.</p>
+<p align=justify>His front punch knocks people up. If you are right in front of him during that he will the grab you, but if you are not close enough he will just push you away from him with his 'after-hit'.</p>
+
+<h2 id="scratches"><ins>Scratches</ins><a class="headerlink" href="#scratches" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros targets one person and then perform a combo (5) of punches + kicks with a few (2) 'after-hits' between them.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Scratches.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>This isnt a particularly dangerous pattern. You need skills with at least para immunity to get away from it, but if you do get caught off guard then you wont have time to move aside mid-combo. Supports should watch out for any people getting stuck in Kazeros's flurry of hits.</p>
+
+<h2 id="rightleft"><ins>Right/Left</ins><a class="headerlink" href="#rightleft" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros does 2 cleaves with a different hands and then follows-up with an uppercut. AFter that he rotates and does a ~240 angle cleave in front of him. This pattern has 2 variations with an only difference between them being a hand that he starts the pattern with.</p>
+
+<p align=justify>1. Left -> Right</p>
+
+<p align=justify>He cleaves with his left hand and then right. Then he follows-up with a left hand uppercut.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Left_Right.mp4">
+</video>
+
+<p align=justify>2. Right -> Left</p>
+
+<p align=justify>He cleaves with his right hand and then left. Then he follows-up with a right hand uppercut.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Right_Left.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>His first 2 cleaves require only para immunity while his uppercut requires a push immunity.</p>
+<p align=justify>His uppercut is a straight line hitbox on one of his side, which means you can safely stay on the other side to avoid it.</p>
+<p align=justify>His last cleave has also a safespot right in front of the boss which can be useful for front attackers or if you cant make it behind him.</p>
+
+<h2 id="punches"><ins>Punches</ins><a class="headerlink" href="#punches" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros's hands glow red. After that he targets one person and performs a series (4) of punches with a few (2) 'after-hits' between them.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Punches.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>All of his hits require only para immunity.</p>
+<p align=justify>He can rotate towards the targeted person after every punch, but only by a small angle, which means he will never be able to rotate more than 90 degrees.</p>
+
+<h2 id="spin-guard"><ins>Spin Guard</ins><a class="headerlink" href="#spin-guard" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros's hands glow red and he crouches. He then targets one person and after a moment dashes towards him. Then he follows-up with a 360 angle <code style="color : Darkorange">guard</code>. This pattern has 2 variations based on if no one managed to execute a <code style="color : Darkorange">guard</code>.</p>
+
+<p align=justify>1. Success</p>
+
+<p align=justify>If somebody <code style="color : Darkorange">guards</code> then he will follow-up with a combo (5) of punches + kicks and a few (2) 'after-hits'.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Guard_Spin.mp4">
+</video>
+
+<p align=justify>2. Failure</p>
+
+<p align=justify>If no one did a <code style="color : Darkorange">guard</code> then he will instead do a 360 spin around him.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Guard_Spin_Fail.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>All of his hits on a successful <code style="color : Darkorange">guard</code> require only para immunity.</p>
+<p align=justify>If you are standing right in front of him during the final 'after-hit' he will then grab you and slam with you.</p>
+<p align=justify>Because of its full angle you have to <code style="color : Darkorange">guard</code> if you are close to him</p>
+
+<h2 id="double-guard"><ins>Double Guard</ins><a class="headerlink" href="#double-guard" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros targets one person and dashes through him. Then he cleaves him and does a <code style="color : Darkorange">guard</code> followed by another one behind him.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Double_Guard.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>Initial dash doesnt do anything - its only for Kazeros to reach the player.</p>
+<p align=justify>His <code style="color : Darkorange">guard</code> is a ~140 angle which means if you are close to his side you wont have to <code style="color : Darkorange">guard</code>. You also have to <code style="color : Darkorange">guard</code> only one time, unless the person Kazeros was targeting moved too far away from him just before the <code style="color : Darkorange">guard</code>. The reason for that is Kazeros is dashing with his <code style="color : Darkorange">guard</code>, so he can accidentaly end up behind you, which forces you to perform 2 <code style="color : Darkorange">guards</code> instead of 1. Thats why its important to not run away from him during this pattern.</p>
+<p align=justify>His initial cleave requires only para immune. You can also just ignore the <code style="color : Darkorange">guard</code> by using any skills with push immune which is a good way to greed with shields from supports.</p>
+
+<h2 id="triple-jump"><ins>Triple Jump</ins><a class="headerlink" href="#triple-jump" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros jumps in place, targets one person and then slides towards him dealing damage in front. After that he does an uppercut behind followed by an 'after-hit' and slams down, dealing damage around and creating blue lines which stun people after a moment and explode a bit later. Then he does an uppercut behind him again, also followed by an 'after-hit' and finishes this time with an explosion where he lands followed by an explosion outside.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Triple_Jump.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>He always follows one person, which means he can also change direction between the jumps.</p>
+<p align=justify>You can partially greed on his back, because there is no hitbox till he does an uppercut.</p>
+<p align=justify>In hardmode there is no explosion on top of him on his last landing, so you can stick to his back. There is only an explosion around. </p>
+
+<h2 id="waves"><ins>Waves</ins><a class="headerlink" href="#waves" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros does a backflip and targets 1 player. After a moment he sends multiple waves of slashes towards that person followed by one final wave in X's shape.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Waves.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>You can hide behind him the moment he locks onto you. He wont rotate till his final hit.</p>
+<p align=justify>This pattern deals a lof of damage so should try to quickly identify it and hide behind him. On his final wave he rotates towards the targeted person again. You should just spacebar/push immune it and supports should DR it. If you dont have anything up just make sure to not send it into your whole team and tank it with a support's help.</p>
+
+<h2 id="grab"><ins>Grab</ins><a class="headerlink" href="#grab" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong></p>
+<p align=justify>Kazeros's right hand glows red. He then jumps and drops on top of one person. After he lands he will try to grab people on front of him. This pattern has 4 variations with different outcomes.</p>
+
+<p align=justify>1. Grab missed.</p>
+
+<p align=justify>Kazeros does nothing.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Grab_Miss.mp4">
+</video>
+
+<p align=justify>2. Grab connected and you succeeded the <code style="color : Fuchsia">co-op counter</code>.</p>
+
+<p align=justify>Kazeros slams the ground with the person he grabbed 4 times dealing damage around. After the 4th slam he will perform the <code style="color : Fuchsia">co-op counter</code>. If you hit it, he will then follow-up with either 'Back wall' or 'Front wall'.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Grab_Hit_Counter.mp4">
+</video>
+
+<p align=justify>3. Grab connected and you failed the <code style="color : Fuchsia">co-op counter</code>.</p>
+
+<p align=justify>Kazeros slams the ground with the person he grabbed 4 times dealing damage around. After the 4th slam he will perform the <code style="color : Fuchsia">co-op counter</code>. If you miss it he will then do one more slam with a larger radius.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Grab_Hit_Failed_Counter.mp4">
+</video>
+
+<p align=justify>4. Initial slam missed.</p>
+
+<p align=justify>This one happens when everyone dodges his drop damage. He deals AOE damage around him. You should have at least one person getting hit by him dropping to avoid that one. </p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Grab_Slam_Miss.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>In hard he requires only <code style="color : Blue">counter</code> if grabbed.</p>
+<p align=justify>His landing requires only para immune.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
