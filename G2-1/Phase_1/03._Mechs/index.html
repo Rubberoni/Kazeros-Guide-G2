@@ -1,0 +1,1208 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../02._Special_Patterns/">
+      
+      
+        <link rel="next" href="../../Phase_2/01._Patterns/">
+      
+      
+        
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Mechs - Kazeros guide G2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mechs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Kazeros guide G2" class="md-header__button md-logo" aria-label="Kazeros guide G2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kazeros guide G2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mechs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Kazeros guide G2" class="md-nav__button md-logo" aria-label="Kazeros guide G2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Kazeros guide G2
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kazeros guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02._Special_Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Special Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#forced-clash-950x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forced clash (950x)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fog-900x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fog (900x)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blackhole" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blackhole
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Phase_2/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Phase_3/Tiled_Arena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-2/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-2/02._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-3/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../G2-3/02._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#forced-clash-950x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forced clash (950x)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fog-900x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fog (900x)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blackhole" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blackhole
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="mechs"><ins>Mechs</ins><a class="headerlink" href="#mechs" title="Permanent link">&para;</a></h1>
+<p align=justify>This section explains all the mechs that happens in phase 1.</p>
+
+<h2 id="forced-clash-950x"><ins>Forced clash (950x)</ins><a class="headerlink" href="#forced-clash-950x" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>Kazeros forces 1 random person to do a clash.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Forced_Clash.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>This is a free DPS window for everybody so make sure to have 100% uptime on darks/buffs.</p>
+
+<h2 id="fog-900x"><ins>Fog (900x)</ins><a class="headerlink" href="#fog-900x" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>Kazeros teleports middle, and starts sending small dark clous outwards while also spawning puddles under the players. The order of puddles is: Below the players -> below the players -> around the players -> around the Kazeros -> below the players -> around the players -> around the Kazeros. Black clouds comes out just before the first set of puddles, second set of puddles and third set of puddles. After the 5th set of puddles the whole outside around Kazeros is fully covered in a black fog preventing you from going out.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>Overall there isnt one solution to this mech. What is mostly agreed upon is that you split into 2 parties to minimize the risk of getting hit and then bait the puddles to the sides.  
+After the puddles around the players explode you use splendid sacred bomb, to prevent getting stunned by the cloud, and dash towards the Kazeros.  
+Then you simply alternate between Sacred splendid bomb usage with DR from the supports to greed with damage. Try to find solution that works the best for your team.</p>
+
+<h2 id="prison"><ins>Prison</ins><a class="headerlink" href="#prison" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>The whole mech consists of 4 parts and it activates instantly after the 'Fog' (900x). The main objective is to destroy parts of the walls on the opposite side of each other. Its extremely important that you precisely aim the boss to avoid wiping on this pattern.</p>
+
+<p align=justify>1. First wall break.</p>
+
+<p align=justify>Kazeros will surround the players with a wall and aim towards one of them. After a few seconds he will send a shockwave and destroy part of the wall at which he was aimed at. At this point he can do all of his normal patterns.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x_First_Wall_Break.mp4">
+</video>
+
+<p align=justify>After 2 patterns he will initiate 2nd wall break. This one has 2 variations.</p>
+
+<p align=justify>2.1 Second wall break - real.</p>
+
+<p align=justify>Kazeros will jump up and disappear. After a moment he will drop down in the middle dealing damage around him while also targeting one random player with a red cone. After the landing he will push any players caught in the cone and spawn blue lines around him. After that he will target one player and send a shockwave towards him which destroy parts of the wall. Players should aim him towards the opposite side of the already destroyed wall and dodge the shockwave.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x_Second_Wall_Break_Real.mp4">
+</video>
+
+<p align=justify>2.2 Second wall break - fake.</p>
+
+<p align=justify>Kazeros will jump up and disappear. After a moment he will drop down in the middle dealing damage around him while targeting one random player with a red cone. After the landing he will push any players caught in the cone and spawn blue lines around him. After that he will target one player, but instead of sending a shockwave he will fake it and slam the whole arena, except for the spots where the walls were destroyed, imprisoning any players hit by it. Then he is gonna follow-up with another slam, but this time being only around him while also spawning puddles bellow every player which also imprison them if they get hit by them.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x_Third_Wall_Break_Fake.mp4">
+</video>
+
+<p align=justify>3. Third wall break.</p>
+
+<p align=justify>This one will be either fake or real, based on which one he did first. He will do the other one. This one happens after 3 normal patterns instead.</p>
+
+<p align=justify>4. Flames.</p>
+
+<p align=justify>Instantly after the previous wall break (either fake or real) he will target one more random player with a cone and send a shockwave towards him. During this lots of red lines indicators will also spawn from the side going through middle of the arena. These are the flames that spawn on the sides where you destroyed the walls. If anyone touches them they will inflict the debuff that makes the player explode after 9 seconds.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x_Wall_Final.mp4">
+</video>
+
+<p align=justify>If you misplace any of the shockwaves, flames might hit the remaining walls which will result in a raid wipe. Thats why you want to be precise with destroying them.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x_Wall_Fail.mp4">
+</video>
+
+<p align=justify>After that Kazeros will reposition towards middle again and start releasing a red fog around him which deals DOT for the remainder of the mech. At the same time rest of the walls will get destroyed and 3 waves of red flames, which work exactly as the ones that come from the sides, will start moving from all directions towards the Kazeros. Then he will do a large AOE explosion with a blue lines (both covering almost the whole map) which to avoid you have to move to the edge of the arena. Then its followed by another explosions, this time covering outside part of the map with safe spot being around the Kazeros.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_900x_Wall_After.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>Shockwave is an instakill so make sure to avoid it.</p>
+<p align=justify>To differentiate between real and fake wall break you have 2 different indicators: Hand glow during targeting a player(fake - white; real - black), purple swirl (if there is a swirl around the Kazeros the moment he targets a player that means its a real one, if there is not then its a fake). Make sure that you are always on the side that you want to destroy in case if its a real break - you wont have much time to reach it if you are on the other side.</p>
+<p align=justify>When all of the walls are destroyed, and the red flames are coming from all directions, make sure to not tank too many of those. They deal a lot of damage and you want to coordinate with your support how to deal with the debuff that they inflict (you can GT to prevent getting it/cleanse it - make sure to manage your resources/time your greed)</p>
+<p align=justify>Beware of the DOT that Kazeros deals as well. You take damage from it if you are extremely close to Kazeros. It can eat through awakening's support in a moment so make sure to always reposition yourself/control your skills that move you forward. Otherwise you wont have any shields left to tank incoming flames.</p>
+
+<h2 id="blackhole"><ins>Blackhole </ins><a class="headerlink" href="#blackhole" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>This mech happens shortly after the 'Prison' mech.</p>
+
+<p align=justify>Kazeros spawns a blackhole in the middle of the arena that pulls players in making movement difficult. At the start of the mech one person will receive the 'eye' target and then it will swap to another one. First person with the eye is the direction he will look towards to at the start of this mech while the 2nd player will be the one who he dashes to.</p>
+
+<p align=justify>After creating a blackhole and switching target to a 2nd player he will dash towards him and spawn 5 consecutive lines aiming at him that go through the Kazeros, followed by one more recast of all lines, this time at the same time. Then he dashes one more time to the same player and performs a 360 grab. After that he rotates towards him and begins a stager check which spawns lots of explosions around the map (mostly middle) with an additional line going through the Kazeros and then some more lines around him. If you get hit by any of the lines/explosions you will be immobilized, sent flying and slowly get pulled towards the blackhole. If you fail the stagger its a raid wipe. When you success the stagger he will spawn 4 red cones that come out of the blackhole and reach the edges of the arena (which are an instakill in TFM).</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Blackhole.mp4">
+</video>
+
+<p align=justify>If you get grabbed he will throw you behind him dealing damage to you and players around.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Blackhole_Grab.mp4">
+</video>
+
+<p align=justify>After the successful stagger Kazeros will dash to the middle and begin a 'Triple guard' pattern that happens at 50% of the meter (Check special patterns 50%). Then he will slam the ground and create 2 set of blue lines after each other and begin another stagger check. If you fail it then he will create one more set of blue lines and repeat the stagger check. If you fail for the 3rd time he will do a raid wipe. After that he will create an AOE explosion around him which will be larger if you fail the stagger check.</p>
+
+<p align=justify>Failed stagger:</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Post_Blackhole_Stagger_Fail.mp4">
+</video>
+
+<p align=justify>Successful stagger:</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-1%20Clips/G2-1_Post_Blackhole_Stagger.mp4">
+</video>
+
+<p align=justify>After this mech, if you did not push him low enough, he will be doing normal patterns till you reduce his HP.</p>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>You want to always bait Kazeros towards the opposite side of where he is looking at. Reason for that is this will guarantee you a safe spot on the edge of the arena after you stagger him. This also allows you to fully greed if you bait him on the 2nd dash right on the edge. You just place him outside, dodge the grab, stagger him and safely DPS without worrying about dodging the red cones. You can also turn him around so that he is facing sideways which will allow your back attackers/front attackers for a full uptime. To do that, person who has an aggro (2nd eye) needs to stay on his side after dodging the grab.</p>
+<p align=justify>If anyone gets hit by an explosion and is slowly flying towards the blackhole (or is already inside the blackhole) supports can try to shield that person so he wont die (he is taking DOT while being inside it)</p>
+<p align=justify>Right after the grab he is also doing a front cleave which can push you out of the map. Remember to not stay around front side during the grab.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
