@@ -1,0 +1,1209 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../01._Patterns/">
+      
+      
+      
+        
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Mechs - Kazeros guide G2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mechs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Kazeros guide G2" class="md-header__button md-logo" aria-label="Kazeros guide G2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kazeros guide G2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mechs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Kazeros guide G2" class="md-nav__button md-logo" aria-label="Kazeros guide G2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Kazeros guide G2
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kazeros guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-1/Phase_1/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-1/Phase_1/02._Special_Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Special Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-1/Phase_1/03._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-1/Phase_2/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Phase 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-1/Phase_3/Tiled_Arena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-2/01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../G2-2/02._Mechs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G2 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    G2 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01._Patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spotlight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spotlight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dps-check-75" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DPS Check (75%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sacrifice40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sacrifice(40%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fake-death-25-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fake death (25%-&gt;10%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotating-pizza-0-x-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rotating pizza (0% &lt; x &lt; 25%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spotlight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spotlight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dps-check-75" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DPS Check (75%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sacrifice40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sacrifice(40%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fake-death-25-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fake death (25%-&gt;10%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotating-pizza-0-x-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rotating pizza (0% &lt; x &lt; 25%)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="mechs"><ins>Mechs</ins><a class="headerlink" href="#mechs" title="Permanent link">&para;</a></h1>
+<p align=justify>This sections explains all the mechs that happen in g2-3.</p>
+
+<p align=justify>This gate also has a meter pattern which is the same as in g2-2. That means, just like in thaemine, it will transfer over any left over meter from the previous gate. It counts during cutscene as well so might want to use that to your advantage.</p>
+
+<h2 id="spotlight"><ins>Spotlight</ins><a class="headerlink" href="#spotlight" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>This mech happens around every 2 minutes.</p>
+
+<p align=justify>Kazeros will cover whole map in black fog. 7 people will be targeted by his clones while 1 person will be targeted by Kazeros himself. That person will be in spotlight (bright light pillar above him).</p>
+
+<p align=justify>Clones will perform small dash into cleave towards the players while Kazeros will either do a <code style="color : Darkorange">guard</code> or a <code style="color : Blue">counter</code> pattern that must be taken care of by the player who's targeted by him. This whole gimmick will repeat 4 times and will kill any person who fails it.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-3%20Clips/G2-3_Darkness_Start.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>During this mech everyone spreads around to avoid overlapping clones. Person being targeted by the Kazeros will have to check which motion Kazeros does to differentiate between a <code style="color : Darkorange">guard</code> and a <code style="color : Blue">counter</code>.</p>
+
+<p align=justify>1. Guard</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-3%20Clips/G2-3_Darkness_Guard.mp4">
+</video>
+
+<p align=justify>2. Counter</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-3%20Clips/G2-3_Darkness_Counter.mp4">
+</video>
+
+<p align=justify>You can look at the way Kazeros is holding his sword.</p>
+
+<p><i><p align=center><code style="color : Darkorange">guard</code></p></i></p>
+<p align=center><img src="https://raw.githubusercontent.com/Rubberoni/Kazeros-G2-Clips/main/G2-3%20Clips/Sword%20down.jpg"></p>
+
+<p><i><p align=center><code style="color : Blue">counter</code></p></i></p>
+<p align=center><img src="https://raw.githubusercontent.com/Rubberoni/Kazeros-G2-Clips/main/G2-3%20Clips/Sword%20above.jpg"></p>
+
+<p align=justify>Another way to identify which one is it is to sidestep when he appears. <code style="color : Darkorange">Guard</code> version will follow your movement while the <code style="color : Blue">counter</code> will lock on to your starting position.</p>
+<p align=justify>Its important to know that Kazeros <code style="color : Blue">counter</code> pattern will knock you down in TFM which means you have to sidestep it first.</p>
+<p align=justify>To easly dodge the clones just wait for them to appear and then move into one direction. They lock on to your starting position.</p>
+<p align=justify>One more important thing: full meter mech, sacrifice and DPS check can delay spotlight. Whenever full meter happens the next spotlight is delayed by 30 seconds. Same goes with DPS check - spotlight can't start when its active. You can manipulate those two to delay next spotlight, because the timer starts when you enter the fight and whenever spotlight ends. As an example: You enter arena at 4:00, spotlight happens at 2:00. If DPS check activates before that time then spotlight will activate after DPS check ~2:30 - assuming DPS check takes 30-40 seconds and it adds a minute to the timer.</p>
+<p align=justify>Best way to manipulate it is to end g2-2 with a full meter mech so that it wont happen more than 1 time in g2-3. You enter into g2-3, delay spotlight with DPS check. Then you enter spotlight. Then you get full meter delaying next spotlight and also you get sacrifice before spotlight happens delaying it one more time. This way you will see spotlight and full meter only 1 time.</p>
+<p align=justify>Just be careful of going into g2-3 mid full meter - you will get it again instantly. Would advise to wait 1-2 patterns after it ends (or partially watch a cutscene ~15 seconds).</p>
+
+<h2 id="dps-check-75"><ins>DPS Check  (75%)</ins><a class="headerlink" href="#dps-check-75" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>This is just a DPS check which requires you to deal enough damage to get rid of additional bar bellow his hp. This mech activates at 75% of his hp and will give you additional time if you manage to clear it. Use Armen and recast as well.</p>
+
+<h2 id="sacrifice40"><ins>Sacrifice(40%)</ins><a class="headerlink" href="#sacrifice40" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>Kazeros will spawn an orb far away in front of him. One person has to enter it to activate a stagger mech. After that he will slowly walk towards him while exploding around. You have to stagger him before he reaches that person.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-3%20Clips/G2-3_Elgic_Stagger.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>Order of the patterns in this one:</p>
+<p align=justify>Explosion -> explosion -> <code style="color : Darkorange">guard</code> -> explosion -> <code style="color : Fuchsia">co-op counter</code> -> explosion -> explosion.</p>
+<p align=justify>All of the explosions can be random, as in you are not guaranteed to get the exactly same shape of explosion every time.</p>
+<p align=justify>Third explosion that happens after the <code style="color : Darkorange">guard</code> is not consistent. In clip above it was front/back without an indicator, but on the other one it was a normal yellow side explosion. To safely avoid it always position yourself on sides of the Kazeros after the <code style="color : Darkorange">guard</code>.</i></p>
+
+<h2 id="fake-death-25-10"><ins>Fake death (25%-&gt;10%)</ins><a class="headerlink" href="#fake-death-25-10" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>The final mech and a finish line. During it all you want to do is use everything you have and hit the boss as hard as you can. Its a fake dps check that will kill everyone at the end and revive them. Everything will come off cd after you get revived.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-3%20Clips/G2-3_Fake_Death.mp4">
+</video>
+
+<p>✅<strong>Useful information</strong></p>
+<p align=justify>His HP always gets recuded during it from 25% to 10% which means any damage that you deal to him during it doesnt matter. All you want is to blast everything right after Vairgrys revives you.</i></p>
+<p align=justify>The moment he ascends is the timing for a hidden sidereal. If you dont want to use it hovewer i will also explain how the last last mech works (or if you lack damage to kill him during it).</i></p>
+
+<h2 id="rotating-pizza-0-x-25"><ins>Rotating pizza (0% &lt; x &lt; 25%)</ins><a class="headerlink" href="#rotating-pizza-0-x-25" title="Permanent link">&para;</a></h2>
+<p>🗒️<strong>Explanation</strong> </p>
+<p align=justify>This one seems simple on paper, but execution gets a little bit tricky.</p>
+
+<p align=justify>At the start Kazeros will split arena into 2 diferent colours. The colour you get hit by is the one which will be your safe spot for the whole mech.</p>
+
+<p align=justify>After that he will start spawning cones of 2 different colours and you have to avoid the opposite one. After 2 explosions he will change position of arena splits. He will repeat this sequence 2 times and then he will start rotating as well.</p>
+
+<video width="800" height="500" controls="" muted="">
+    <source src="https://github.com/Rubberoni/Kazeros-G2-Clips/raw/refs/heads/main/G2-3%20Clips/G2-3_Fake_Death.mp4">
+</video>
+
+<p align=justify>Now here comes the tricky part. At the start of this mech he split arena into 2 colours. It did 2 things:</p>
+
+<ul>
+<li>Marked you with the colours you need to stick with</li>
+<li>Showed you on which part of the arena you have to stay</li>
+</ul>
+<p><a href="https://youtu.be/hVMtggRqIik?si=pTPQXgLlnpc8tzsK&amp;t=1741">last mech</a> - clip because the whole mech is too long and quality will be too bad to see what's happening.</p>
+<p align=justify>You can notice in the clip, that the halfed arenas did not dissapear. They are always there, but hidden bellow the pizza cones. That means you not only have to stick with the cone that has your starting colour. You also have to make sure that you stay on your half of the arena. Now where is the tricky part?</p>
+
+<p align=justify>During the rotation.</p>
+
+<p align=justify>Your safe half will be rotating around the Kazeros while he also spawns cones around. That means you have to rotate with it constantly and also lookout for the safe cones. Not only that - during this whole mech you have to attack him. It wont end otherwise.</p>
+
+<p align=justify>Some infographic:</p>
+
+<p align=center><img src="https://raw.githubusercontent.com/Rubberoni/Kazeros-G2-Clips/main/G2-3%20Clips/Last%20mech.jpg"></p>
+
+<p align=justify>If you started on blue, your safe spots will be on the left side on blue parts. If you started on yellow, your safe spots will be on the right side on yellow parts.</p>
+<p align=justify>If you get hit then you receive a debuff that makes you die after 10 seconds. If that happens just try to deal as much damage as possible before you die. You cant survive it even with Crisis.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
